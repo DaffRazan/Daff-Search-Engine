@@ -1,0 +1,40 @@
+.search-engine {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+body {
+    background-image: url("sky.jpg");
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.content {
+    color: white;
+    margin-right: 200px;
+    display: block;
+    /* or inline-block */
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 3.6em;
+    line-height: 1.8em;
+}
+
+.link {
+    color: #f8b400;
+    font-size: large;
+    text-decoration: none;
+
+}
+
+.link:hover {
+    color: #c9753d;
+    text-decoration: none;
+}
+
+.url-link {
+    color: #52de97;
+}
